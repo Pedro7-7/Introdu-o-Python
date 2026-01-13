@@ -1,12 +1,16 @@
 # Variáveis
 Velocidade_internet = 400
 print (Velocidade_internet)
+
 # Número inteiros(int)
 idade = 15
+
 # Número decimais(Float)
 nota = 8.5
+
 # Textos(strings)(str)
 nome_completo = 'Denis de Souza'
+
 # Booleanos(True ou False)(Bool)
 pode_entrar = False
 
