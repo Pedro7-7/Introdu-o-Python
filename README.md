@@ -201,15 +201,18 @@ usuario = ''
 senha = ''
 tentativas = 0
 
-while (usuario != 'pedro' and senha != '1020'):
-    tentativas < 3
+while tentativas < 3:
     usuario = input('Digite seu usuário: ')
     senha = input('Digite sua senha: ')
+    
+    if usuario == 'Casa' and senha == '1234':
+        print ("Login feito com sucesso!")
+        break
+
     tentativas += 1
-if usuario != 'pedro' and senha != '1020':
-    print ("Aguarde 30 minutos para tentar novamente.")
+
 else:
-    print('Login feito com sucesso!')
+    print('guarde 30 minutos para tentar novamente.')
 
 #listas
 # Encontar índice automaticamente
