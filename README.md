@@ -212,7 +212,7 @@ while tentativas < 3:
     tentativas += 1
 
 else:
-    print('guarde 30 minutos para tentar novamente.')
+    print('Aguarde 30 minutos para tentar novamente.')
 
 #listas
 # Encontar índice automaticamente
